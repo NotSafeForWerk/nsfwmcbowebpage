@@ -1,3 +1,8 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <template>
   <main class="jumbotron">
     <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -39,19 +44,7 @@ const projects = [
     description: 'Branding para Not Safe For Work Clothing: Estudio creativo de estilo unico y atrevido que diseña prendas no aptas para el trabajo',
     image: 'https://i.imgur.com/qWzXZBK.png',
     url: '/NSFWClothing'
-  },{
-    title: 'Trippy Clothes',
-    description: 'Branding para Trippy Clothes: Elevando la tienda en línea para personas geniales que abrazan el estilo y la aventura',
-    image: 'https://i.ibb.co/Tg8t8KY/trippy-item.webp',
-    url: '/trippy'
   },
-  {
-    title: 'KeyCapz',
-    description: 'Branding y Desarrollo de Sitio Web para Keycapz: Creando teclas únicas para entusiastas de teclados personalizados en Venezuela',
-    image: 'https://i.ibb.co/djpqcT4/keycapz-item.webp',
-    url: '/keycapz'
-  },
-
 ];
 </script>
 

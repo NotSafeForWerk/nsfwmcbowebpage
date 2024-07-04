@@ -3,37 +3,20 @@
 #  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
 #  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
 #  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
-<script setup>
-import {RouterView } from 'vue-router'
-import MainNav from './components/MainNav.vue'
-import LoadingSpinner from './components/LoadingSpinner.vue'
-import FooterView from './components/FooterView.vue'
-</script>
-
 <template>
-  <div>
-    <loading-spinner v-if="loading" />
-    <MainNav />
-    <RouterView />
-    <FooterView/>
-  </div>
-</template>
+      <div class="text-center socialicons">
+      <a href="https://wa.me/584127698781" target="_blank" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp icon"></i> </a>
+      <a href="https://instagram.com/nsfwmcbo" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-instagram icon"></i></a>
+      <a href="https://facebook.com/nsfwmcbo" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook icon"></i></a>
+      <a href="https://twitter.com/nsfwmcbo" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-x-twitter icon"></i></a>
+    </div>
+    <p data-translate class="text-center">
 
-<script>
-export default {
-  components: {
-    LoadingSpinner,
-  },
-  data() {
-    return {
-      loading: true, // Mostrar la animación de carga al principio
-    };
-  },
-  created() {
-    // Simula una carga asíncrona (puedes reemplazar esto con tu propia lógica)
-    setTimeout(() => {
-      this.loading = false; // Oculta la animación de carga cuando todos los elementos estén cargados
-    }, 500); // Cambia esto a la duración real de tu carga
-  },
-};
-</script>
+
+      © 2023 | Not Safe For Work - Todos los derechos reservados | Creado por Siplhes
+    </p>
+</template>

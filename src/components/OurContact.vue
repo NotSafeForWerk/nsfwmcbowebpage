@@ -1,3 +1,8 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <template>
   <section class="contact-section">
     <div class="jumbotron d-flex flex-column">
@@ -16,7 +21,7 @@
             </a>
           </div>
           <div class="contact-item">
-            <a href="https://instagram.com/zstudiosnetworks" target="_blank" class="btnSiplhes" aria-label="Instagram">
+            <a href="https://instagram.com/nsfwmcbo" target="_blank" class="btnSiplhes" aria-label="Instagram">
               <i class="fab fa-instagram"></i> Instagram
             </a>
           </div>
@@ -26,7 +31,7 @@
             </a>
           </div>
           <div class="contact-item">
-            <a href="mailto:siplhes@gmail.com" data-translate class="btnSiplhes" aria-label="Email">
+            <a href="mailto:nsfwmcbo@gmail.com" data-translate class="btnSiplhes" aria-label="Email">
               <i class="fas fa-envelope"></i> E-mail
             </a>
           </div>
@@ -35,16 +40,11 @@
           <!-- Columna derecha para el mapa -->
           <div class="contact-item">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="100%" height="350"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.43309806675!2d-71.6355639!3d10.7068246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899ec44e25b1b1%3A0xcc33ecb72609ea7!2szStudios%20Networks!5e0!3m2!1ses-419!2snl!4v1696543134376!5m2!1ses-419!2snl"
-                frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.445517575341!2d-71.6352401!3d10.7065846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899f2035a14e73%3A0x7fa074a3b189e37a!2sNSFW%20Clothes%20Maracaibo!5e0!3m2!1ses-419!2sve!4v1720122767807!5m2!1ses-419!2sve" width="600" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
       </div>
-      <p data-translate class="text-center">
-        © 2022 | zStudios Networks - Todos los derechos reservados
-      </p>
     </div>
   </section>
 </template>

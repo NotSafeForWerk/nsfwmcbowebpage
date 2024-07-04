@@ -2,10 +2,12 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ProjectView from "../views/ProjectView.vue";
 import AboutView from "../views/AboutView.vue";
-import TrippyView from "../views/TrippyView.vue";
+import TeeView from "../views/TeeView.vue";
 import KeycapzView from "../views/KeycapzView.vue";
 import ServicesView from '../views/ServicesView.vue'
 import NsfwclothingView from '../views/NsfwclothingView.vue'
+import TeeDetails from '../components/TeeDetails.vue';
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -25,9 +27,13 @@ const router = createRouter({
       component: ProjectView,
     },
     {
-      path: "/trippy",
-      name: "trippy",
-      component: TrippyView,
+      path: "/tshirts",
+      name: "tshirts",
+      component: TeeView,
+    },
+    { path: "/TeeDetails",
+      name: "teedetails",
+      component: TeeDetails,
     },
     {
       path: "/keycapz",

@@ -1,30 +1,44 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
+
 <script setup>
+import { ref, onMounted } from 'vue';
 import MyJumbotron from '../components/TheJumbotron.vue'
 import OurContact from '../components/OurContact.vue'
+//Configuracion para la visualizacion del Doodle
+import configData from '../components/config.json';
+const doodleVisible = ref(false);
+onMounted(() => {doodleVisible.value = configData[0].doodle;});
 </script>
 
 <template>
   <main>
     <section id="welcomeSection"
       class="container-fluid text-center p-4 d-flex align-content-center justify-content-center">
-      <css-doodle class="d-none d-sm-none d-md-block" use="var(--rule)"></css-doodle>
-      <div id="zstudiosData" class="row d-flex align-self-center ">
+      <div v-if="doodleVisible">
+        <css-doodle class="d-none d-sm-none d-md-block" use="var(--rule)"></css-doodle>
+      </div>
+      <div id="NSFWData" class="row d-flex align-self-center ">
         <div class="col-sm-3 col-md-6 col-lg-6">
-          <img id="zStudiosLogo" height="500" alt="zStudios Logo" class="img-fluid" src="https://i.imgur.com/vfSHhVr.png">
+          <img id="NSFWLogo" alt="NSFW Logo" class="img-fluid"
+            src="https://i.imgur.com/vfSHhVr.png">
         </div>
         <div class="col-sm-3 col-md-6 col-lg-5 text-light">
-          <h1 id="zStudiosTitle" class="title">
+          <h1 id="NSFWTitle" class="title">
             <span class="m-1">Not Safe</span>
             <span class="m-1">For Work</span>
           </h1>
-          <h2><span data-translate>Diseño</span>
-            <span data-translate class="m-1">y</span>
-            <span data-translate class="m-1">Desarrollo</span>
-            <span data-translate class="m-1">a</span>
-            <span data-translate class="m-1">tus</span>
-            <span data-translate class="m-1">manos</span>
+          <h2><span data-translate>Tshirts,</span>
+            <span data-translate class="m-1">Hoodies,</span>
+            <span data-translate class="m-1">Sweaters,</span>
+            <span data-translate class="m-1">Croptops,</span>
+            <span data-translate class="m-1">Tazas,</span>
+            <span data-translate class="m-1">etc</span>
           </h2>
-          <a href="/projects" class="btn btnSiplhes" role="button" data-translate>Ver mas</a>
+          <a href="/tshirts" class="btn btnSiplhes" role="button" data-translate>Ver tienda</a>
         </div>
       </div>
     </section>
@@ -34,22 +48,21 @@ import OurContact from '../components/OurContact.vue'
 </template>
 
 <style>
-#zstudiosData {
+#NSFWData {
   position: absolute;
   z-index: 1;
 }
 
-#zStudiosLogo {
-  height: 40vh;
-
+#NSFWLogo {
+  width: 30vh;
 }
 
-#zStudiosTitle {
+#NSFWTitle {
   font-size: xxx-large !important;
 }
 
 #welcomeSection {
-  height: 90vh;
+  height: 50vh;
   margin: 0;
   background: #14171a;
   overflow: hidden;
@@ -62,8 +75,8 @@ import OurContact from '../components/OurContact.vue'
 
 }
 
-#welcomeSection .h1, #welcomeSection
-h4 {
+#welcomeSection .h1,
+#welcomeSection h4 {
 
   text-align: center;
   transform: scale(0.94);
@@ -163,7 +176,7 @@ span:nth-child(18) {
 
 /** doodle**/
 css-doodle {
-  --color: @p(#d82d20, #1f1f1f, #6b6b6b, #1f1f1f);
+  --color: @p(#FEFFFA, #1f1f1f, #6b6b6b, #1f1f1f);
 
   --rule: ( :doodle {
       @grid: 30x1 / 18vmin;

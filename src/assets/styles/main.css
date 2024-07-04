@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5{
 /* CSS */
 .btnSiplhes {
   background-color: #fefffa;
-  border: 2px solid #212427;
+
   border-radius: 5px;
   color: #111;
   cursor: pointer;
@@ -84,7 +84,7 @@ h1,h2,h3,h4,h5{
   .btnSiplhes {
     color: #111;
     min-width: 120px;
-    padding: 0 25px;
+    padding: 0 15px;
   }
 }
 .project-header {
@@ -126,4 +126,22 @@ h1,h2,h3,h4,h5{
   text-decoration: none;
   border: none;
   cursor: pointer;
+}
+
+.socialicons{
+  color: #fefffa;
+  font-size: x-large;
+  .icon{
+    margin: 5px;
+  }
+  .icon:hover{
+    background-image: linear-gradient(45deg, violet, indigo, blue, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s ease infinite;
+  }
+  a{
+    color: #ffffff;
+  }
 }

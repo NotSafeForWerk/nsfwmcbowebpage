@@ -1,25 +1,32 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <template>
   <section>
     <div class="wrapper" data-bs-theme="dark">
       <nav class="navbar navbar-expand-lg">
         <div class="container d-flex align-items-center">
           <a class="text-decoration-none" href="/">
-            <h1 class="title text-light glitcheffect">zStudios Networks</h1>
+            <h1 class="title text-light glitcheffect">NOT SAFE FOR WORK</h1>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <RouterLink data-translate class="btnSiplhes" to="/">Inicio</RouterLink>
-              <RouterLink data-translate class="btnSiplhes" to="/proyectos">Portafolio</RouterLink>
-              <RouterLink data-translate class="btnSiplhes" to="/about">Acerca de Nosotros</RouterLink>
+            <div class="navbar-nav gap-1">
+              <RouterLink class="btnSiplhes" to="/">Inicio</RouterLink>
+              <RouterLink class="btnSiplhes" to="/tshirts">Tienda</RouterLink>
+              <RouterLink class="btnSiplhes" to="/about">Nosotros</RouterLink>
+              <RouterLink class="btnSiplhes" to="/about">Pedidos</RouterLink>
+              <RouterLink class="btnSiplhes" to="/about">FAQ</RouterLink>
             </div>
-           <!--
+            <!--
            <button title="Haz clic para cambiar el idioma" @click="toggleTranslation" :class="['btn', `translateBtn-${targetLanguage}`]"/>
 
-           --> 
+           -->
           </div>
         </div>
       </nav>

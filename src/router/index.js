@@ -3,7 +3,6 @@ import HomeView from "../views/HomeView.vue";
 import ProjectView from "../views/ProjectView.vue";
 import AboutView from "../views/AboutView.vue";
 import TeeView from "../views/TeeView.vue";
-import KeycapzView from "../views/KeycapzView.vue";
 import ServicesView from '../views/ServicesView.vue'
 import NsfwclothingView from '../views/NsfwclothingView.vue'
 import TeeDetails from '../components/TeeDetails.vue';
@@ -31,19 +30,16 @@ const router = createRouter({
       name: "tshirts",
       component: TeeView,
     },
-    { path: "/TeeDetails",
+    {
+      path: "/TeeDetails",
       name: "teedetails",
       component: TeeDetails,
     },
     {
-      path: "/keycapz",
-      name: "keycapz",
-      component: KeycapzView,
-    },    {
       path: "/services",
       name: "services",
       component: ServicesView,
-    },  {
+    }, {
       path: "/nsfwclothing",
       name: "nsfwclothing",
       component: NsfwclothingView,

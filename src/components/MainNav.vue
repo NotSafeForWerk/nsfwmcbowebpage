@@ -20,12 +20,11 @@
               <RouterLink class="btnSiplhes" to="/">Inicio</RouterLink>
               <RouterLink class="btnSiplhes" to="/tshirts">Tienda</RouterLink>
               <RouterLink class="btnSiplhes" to="/about">Nosotros</RouterLink>
-              <RouterLink class="btnSiplhes" to="/about">Pedidos</RouterLink>
-              <RouterLink class="btnSiplhes" to="/about">FAQ</RouterLink>
+              <RouterLink class="btnSiplhes" to="/">Pedidos</RouterLink>
+              <RouterLink class="btnSiplhes" to="/">FAQ</RouterLink>
             </div>
             <!--
            <button title="Haz clic para cambiar el idioma" @click="toggleTranslation" :class="['btn', `translateBtn-${targetLanguage}`]"/>
-
            -->
           </div>
         </div>

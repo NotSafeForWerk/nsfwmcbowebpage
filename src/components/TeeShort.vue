@@ -5,14 +5,17 @@
 #  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <script setup>
 import { ref, computed } from 'vue';
+
 import TeeData from './TeeData.json';
+
 const maxItems = ref(4);
+
 const displayedTshirts = computed(() => {
   return TeeData.slice(0, maxItems.value);
 });
-
-
 </script>
+
+
 <template>
   <main>
     <div class="container p-4">
@@ -25,7 +28,8 @@ const displayedTshirts = computed(() => {
             <div class="card-footer text-center">
             </div>
           </div>
-          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">More</RouterLink>
+          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">Mas detalles</RouterLink>
+   
         </div>
         <div class="mx-auto d-flex justify-content-center text-center p-2">
           <RouterLink class="btnSiplhes" to="/Tshirts">Ver mas diseños</RouterLink>

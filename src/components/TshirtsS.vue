@@ -30,7 +30,7 @@ const displayedTshirts = computed(() => {
             <div class="card-footer text-center">
             </div>
           </div>
-          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">More</RouterLink>
+          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">Mas detalles</RouterLink>
         </div>
       </div>
       <div class=" d-flex jusrtify-content-center text-center">

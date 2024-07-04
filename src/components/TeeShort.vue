@@ -29,10 +29,10 @@ const displayedTshirts = computed(() => {
             </div>
           </div>
           <a :href="`/teedetails?id=${shirt.id}`" class="btn btn-secondary stretched-link">Más detalles</a>
-
+   
         </div>
         <div class="mx-auto d-flex justify-content-center text-center p-2">
-          <a href="/Tshirts" class="btn btnSiplhes" role="button" data-translate>Ver mas diseños</a>
+          <RouterLink class="btnSiplhes" to="/Tshirts">Ver mas diseños</RouterLink>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@
 <script setup>
 import { ref, computed } from 'vue';
 import TeeData from './TeeData.json';
+import { RouterLink } from 'vue-router';
 const maxItems = ref(50);
 const displayedTshirts = computed(() => {
   return TeeData.slice(0, maxItems.value);
@@ -28,9 +29,8 @@ const displayedTshirts = computed(() => {
             <p class="card-text">Precio: <strong>{{ '$' + shirt.price }}</strong></p>
             <div class="card-footer text-center">
             </div>
-
           </div>
-          <a :href="`/teedetails?id=${shirt.id}`" class="btn btn-secondary stretched-link">Más detalles</a>
+          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">More</RouterLink>
         </div>
       </div>
       <div class=" d-flex jusrtify-content-center text-center">

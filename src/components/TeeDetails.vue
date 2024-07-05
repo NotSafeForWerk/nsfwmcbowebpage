@@ -43,13 +43,9 @@ onMounted(() => {
 </template>
 
 <style>
-.card {
-    background-color: #1d1d1d;
-    color: #fefffa;
-}
+
 
 .tshirtimg {
     width: 35vw;
-
 }
 </style>

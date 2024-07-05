@@ -20,6 +20,7 @@ const displayedTshirts = computed(() => {
   <main>
     <div class="container p-4">
       <div class="row d-flex justify-content-center">
+        <h1 id="slogan" class="text-center" N>Ultimos productos</h1>
         <div v-for="(shirt, index) in displayedTshirts" :key="index" class="card m-2" style="width: 18rem;">
           <img class="card-img-top" :src="shirt.image" alt="Card image cap object-fit-fill">
           <div class="card-body">
@@ -42,7 +43,7 @@ const displayedTshirts = computed(() => {
 
 <style>
 .card {
-  background-color: #1d1d1d;
+  background-color: #111;
   color: #fefffa;
 }
 #lastDesigns{

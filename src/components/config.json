@@ -1,6 +1,6 @@
 [
     {   
         "_comment": "This is for active o deactive the doodle on homepage",
-        "doodle": true
+        "doodle": false
     }
 ]

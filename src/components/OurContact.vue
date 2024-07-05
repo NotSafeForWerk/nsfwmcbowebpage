@@ -39,8 +39,10 @@
         <div class="col-md-6 order-md-2">
           <!-- Columna derecha para el mapa -->
           <div class="contact-item">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.445517575341!2d-71.6352401!3d10.7065846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899f2035a14e73%3A0x7fa074a3b189e37a!2sNSFW%20Clothes%20Maracaibo!5e0!3m2!1ses-419!2sve!4v1720122767807!5m2!1ses-419!2sve" width="600" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.445517575341!2d-71.6352401!3d10.7065846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899f2035a14e73%3A0x7fa074a3b189e37a!2sNSFW%20Clothes%20Maracaibo!5e0!3m2!1ses-419!2sve!4v1720122767807!5m2!1ses-419!2sve" 
+              width="380
+              " height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -68,6 +70,9 @@
 .contact-item iframe {
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+.map{
+  width: 20vw;
 }
 </style>
   

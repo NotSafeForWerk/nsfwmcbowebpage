@@ -21,7 +21,7 @@ import TeeShort from './TeeShort.vue';
       </div>
       <div class="row px-3 mx-3">
         <div class="col-md-4">
-          <div class="card m-2 p-3 reveal">
+          <div class="card qualityCard m-2 p-3 reveal">
             <div class="icon d-flex justify-content-center">
               <designIcon />
             </div>
@@ -30,7 +30,7 @@ import TeeShort from './TeeShort.vue';
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card m-2 p-3 reveal">
+          <div class="card desingCard m-2 p-3 reveal">
             <div class="icon d-flex justify-content-center">
               <codeIcon />
             </div>
@@ -47,11 +47,6 @@ import TeeShort from './TeeShort.vue';
             <p N class="card-text">¡Ojo! No te quedes con lo que te muestran nada mas, si en tu mente yace un diseño que moririas por ver en una prenda o en algun objeto pues cuentanos pues esa es la base de este negocio, la personalizacion</p>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="art-weapons" class="container-fluid text-center p-4">
-      <div class="d-flex align-items-center justify-content-center">
-        <h1 id="slogan" class="text-center" N>Ultimos productos</h1>
       </div>
     </section>
     <TeeShort/>
@@ -121,5 +116,8 @@ import TeeShort from './TeeShort.vue';
 }
 #slogan{
   color: #111;
+}
+.card{
+  background-color: #1d1d1d;
 }
 </style>

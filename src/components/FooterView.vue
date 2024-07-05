@@ -15,8 +15,6 @@
         <i class="fa-brands fa-x-twitter icon"></i></a>
     </div>
     <p data-translate class="text-center">
-
-
       © 2023 | Not Safe For Work - Todos los derechos reservados | Creado por Siplhes
     </p>
 </template>

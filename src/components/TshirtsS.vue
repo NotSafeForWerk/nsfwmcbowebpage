@@ -11,7 +11,6 @@ const maxItems = ref(50);
 const displayedTshirts = computed(() => {
   return TeeData.slice(0, maxItems.value);
 });
-
 </script>
 
 <template>
@@ -40,14 +39,12 @@ const displayedTshirts = computed(() => {
   </main>
 </template>
 
-
 <style>
 .card {
-  background-color: #1d1d1d;
+  background-color: #111;
   color: #fefffa;
 }
-
-h1 {
+h1{
   color: #fefffa;
 }
 </style>

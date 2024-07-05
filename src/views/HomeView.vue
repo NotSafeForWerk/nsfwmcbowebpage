@@ -31,14 +31,14 @@ onMounted(() => {doodleVisible.value = configData[0].doodle;});
             <span class="m-1">Not Safe</span>
             <span class="m-1">For Work</span>
           </h1>
-          <h2><span data-translate>Tshirts,</span>
+          <h2><span>Tshirts,</span>
             <span data-translate class="m-1">Hoodies,</span>
             <span data-translate class="m-1">Sweaters,</span>
             <span data-translate class="m-1">Croptops,</span>
             <span data-translate class="m-1">Tazas,</span>
             <span data-translate class="m-1">etc</span>
           </h2>
-          <a href="/tshirts" class="btn btnSiplhes" role="button" data-translate>Ver tienda</a>
+          <RouterLink class="btnSiplhes" to="/tshirts">Ver tienda</RouterLink>
         </div>
       </div>
     </section>
@@ -64,11 +64,12 @@ onMounted(() => {doodleVisible.value = configData[0].doodle;});
 #welcomeSection {
   height: 50vh;
   margin: 0;
-  background: #14171a;
-  overflow: hidden;
-  display: flex;
+
+  background:  linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url(https://i.imgur.com/ON4xln5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   align-items: center;
-  justify-content: center;
   contain: content;
   overflow: clip;
   /*maybe this help*/

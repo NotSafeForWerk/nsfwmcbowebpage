@@ -28,7 +28,7 @@ const displayedMugs = computed(() => {
             <p class="card-text">Precio: <strong>{{ '$' + mug.price }}</strong></p>
           </div>
           <RouterLink class="btnSiplhes mb-4 stretched-link" :to="`/teedetails?id=${mug.id}`">Mas detalles</RouterLink>
-          <a class="stretched-link" :href="`/teedetails?id=${mug.id}`"></a>
+          <a class="stretched-link" :href="`/mug?id=${mug.id}`"></a>
         </div>
       </div>
       <div class="mx-auto text-center my-4">

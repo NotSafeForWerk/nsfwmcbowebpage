@@ -52,6 +52,9 @@ h5 {
   font-family: "Playfair Display", serif;
 }
 
+a{
+  color:#fefffa;
+}
 
 @media (max-width: 768px) {
   .btn-contact {

@@ -51,13 +51,14 @@ onMounted(() => {
 
 <style>
 .tshirtimg {
-    height: 75vh;
-    width: 35vw;
+    aspect-ratio: 1/1;
+    width: 40vw;
 }
 
 @media only screen and (max-width: 500px) {
     .tshirtimg {
-        width: 90vw;
+    width: 90vw;
+        aspect-ratio: 1/1;
     }
 }
 </style>

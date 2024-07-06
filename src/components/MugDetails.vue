@@ -25,7 +25,7 @@ onMounted(() => {
     <div v-if="tshirt" class="container my-3 p-3">
         <a href=""></a>
         <div class="row">
-            <div class="col-md-8"> <img class="tshirtimg rounded p-2" :src="tshirt.image">
+            <div class="col-md-8"> <img class="mugImg rounded p-2" :src="tshirt.image">
             </div>
             <div class="col p-4">
                 <div class="card p-5">
@@ -50,14 +50,15 @@ onMounted(() => {
 </template>
 
 <style>
-.tshirtimg {
-    height: 75vh;
-    width: 35vw;
+.mugImg {
+    aspect-ratio: 1/1;
+    width: 40vw;
 }
 
 @media only screen and (max-width: 500px) {
-    .tshirtimg {
-        width: 90vw;
+    .mugImg {
+    width: 90vw;
+        aspect-ratio: 1/1;
     }
 }
 </style>

@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
-import TeeData from './TeeData.json';
+import TeeData from './MugData.json';
 
 const route = useRoute();
 const tshirt = ref(null);
@@ -30,7 +30,7 @@ onMounted(() => {
             <div class="col p-4">
                 <div class="card p-5">
                     <h1>{{ tshirt.title }}</h1>
-                    <h3>Precio: <strong>{{ '$' + tshirt.price }}</strong></h3>
+                    <h3>Precio: <strong>{{ '$ ' + tshirt.price }}</strong></h3>
                     <h3>Descripcion:  </h3>
                         <p> {{ tshirt.desc }} </p>
                   

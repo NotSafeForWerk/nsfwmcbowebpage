@@ -18,10 +18,10 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav gap-1">
               <RouterLink class="btnSiplhes" to="/">Inicio</RouterLink>
-              <RouterLink class="btnSiplhes" to="/tshirts">Tienda</RouterLink>
+              <RouterLink class="btnSiplhes" to="/shop">Tienda</RouterLink>
               <RouterLink class="btnSiplhes" to="/about">Nosotros</RouterLink>
-              <RouterLink class="btnSiplhes" to="/">Pedidos</RouterLink>
-              <RouterLink class="btnSiplhes" to="/">FAQ</RouterLink>
+              <RouterLink class="btnSiplhes" to="/orders">Pedidos</RouterLink>
+              <RouterLink class="btnSiplhes" to="/faq">FAQ</RouterLink>
             </div>
             <!--
            <button title="Haz clic para cambiar el idioma" @click="toggleTranslation" :class="['btn', `translateBtn-${targetLanguage}`]"/>

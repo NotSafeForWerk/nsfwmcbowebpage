@@ -6,6 +6,12 @@ import TeeView from "../views/TeeView.vue";
 import ServicesView from '../views/ServicesView.vue';
 import NsfwclothingView from '../views/NsfwclothingView.vue';
 import TeeDetails from '../components/TeeDetails.vue';
+import MugDetails from '../components/MugDetails.vue';
+import FaqView from "../views/FaqView.vue";
+import TermsView from "../views/TermsView.vue";
+import ShopView from "../views/ShopView.vue";
+import MugView from "../views/MugView.vue";
+import Order from "../components/Order.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,9 +37,24 @@ const router = createRouter({
       component: TeeView,
     },
     {
+      path: "/mugs",
+      name: "mugs",
+      component: MugView,
+    },
+    {
       path: "/teedetails",
       name: "teedetails",
       component: TeeDetails,
+    },
+    {
+      path: "/mug",
+      name: "mug",
+      component: MugDetails,
+    },
+    {
+      path: "/orders",
+      name: "orders",
+      component: Order,
     },
     {
       path: "/services",
@@ -44,6 +65,21 @@ const router = createRouter({
       path: "/nsfwclothing",
       name: "nsfwclothing",
       component: NsfwclothingView,
+    },
+    {
+      path: "/faq",
+      name: "faq",
+      component: FaqView,
+    },
+    {
+      path: "/terms",
+      name: "terms",
+      component: TermsView,
+    },
+    {
+      path: "/shop",
+      name: "shop",
+      component: ShopView,
     },
   ],
 });

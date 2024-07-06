@@ -15,36 +15,49 @@ const displayedTshirts = computed(() => {
 
 <template>
   <main>
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div>
-          <h1>Diseños</h1>
+    <div class="mx-auto text-center my-4">
+          <h1>T-SHIRTS</h1>
         </div>
-        <div v-for="(shirt, index) in displayedTshirts" :key="index" class="card m-2 text-center "
-          style="width: 18rem;">
+    <div class="container shopContainer rounded">
+      <div class="row d-flex justify-content-center">
+
+        <div v-for="(shirt, index) in displayedTshirts" :key="index" class="card teecard m-2 text-center">
           <img class="card-img-top" :src="shirt.image" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">{{ shirt.title }}</h5>
             <p class="card-text">Precio: <strong>{{ '$' + shirt.price }}</strong></p>
-            <div class="card-footer text-center">
-            </div>
           </div>
-          <RouterLink class="btnSiplhes" :to="`/teedetails?id=${shirt.id}`">Mas detalles</RouterLink>
+          <RouterLink class="btnSiplhes mb-4 stretched-link" :to="`/teedetails?id=${shirt.id}`">Mas detalles</RouterLink>
+          <a class="stretched-link" :href="`/teedetails?id=${shirt.id}`"></a>
         </div>
       </div>
-      <div class=" d-flex jusrtify-content-center text-center">
-        <a href="/" class="btn btnSiplhes" role="button" data-translate>Volver</a>
+      <div class="mx-auto text-center my-4">
+        <RouterLink class="btnSiplhes mb-3" to="/">Volver</RouterLink>
       </div>
     </div>
   </main>
 </template>
 
 <style>
+#shop-menu{
+  background-color: #fefffa;
+  color: #111;
+}
 .card {
   background-color: #111;
   color: #fefffa;
 }
 h1{
   color: #fefffa;
+}
+/** Hacer que los items de la tienda sean pequeños cuando la pantalla baja de 500px */
+.teecard{
+  width: 23rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .teecard{
+  width: 13rem;
+  }
 }
 </style>

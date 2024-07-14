@@ -1,3 +1,8 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
@@ -22,10 +27,13 @@ onMounted(() => {
 </script>
 
 <template>
+ 
+
     <div v-if="tshirt" class="container my-3 p-3">
         <a href=""></a>
         <div class="row">
-            <div class="col-md-8"> <img class="tshirtimg rounded p-2" :src="tshirt.image">
+            <div class="col-md-8"> <img class="tshirtimg rounded p-2" :src="tshirt.image"
+                :alt="`Taza de cafe personalizada con el diseño ${tshirt.title}`">
             </div>
             <div class="col p-4">
                 <div class="card p-5">
@@ -33,13 +41,9 @@ onMounted(() => {
                     <h3>Precio: <strong>{{ '$' + tshirt.price }}</strong></h3>
                     <h3>Descripcion:  </h3>
                         <p> {{ tshirt.desc }} </p>
-                  
                     <a :href="tshirt.url" class="btn btnSiplhes">Comprar via <i
                             class="fa-brands fa-whatsapp"></i></a>
                 </div>
-
-
-
             </div>
         </div>
     </div>
@@ -47,6 +51,7 @@ onMounted(() => {
         <h1 my-5>Producto no encontrado, le invitamos a ir al inicio</h1>
         <a href="/" class="btn btnSiplhes" role="button" data-translate>Volver</a>
     </div>
+    
 </template>
 
 <style>

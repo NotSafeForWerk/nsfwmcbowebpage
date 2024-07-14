@@ -11,12 +11,12 @@ import FooterView from './components/FooterView.vue'
 </script>
 
 <template>
-  <div>
+  <main>
     <loading-spinner v-if="loading" />
     <MainNav />
     <RouterView />
-    <FooterView/>
-  </div>
+  </main>
+  <FooterView/>
 </template>
 
 <script>

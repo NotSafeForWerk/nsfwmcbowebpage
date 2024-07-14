@@ -7,7 +7,7 @@
 import designIcon from './icons/designIcon.vue';
 import codeIcon from './icons/codeIcon.vue';
 import devIcon from './icons/devIcon.vue';
-import TeeShort from './TeeShort.vue';
+import TeeShort from './LastItems.vue';
 </script>
 
 <template>

@@ -1,18 +1,25 @@
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
+
+
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
-import TeeData from './MugData.json';
+import MugData from './MugData.json';
 
 const route = useRoute();
-const tshirt = ref(null);
+const mug = ref(null);
 const id = route.query.id;
 
 const fetchTshirtData = () => {
-    const foundTshirt = TeeData.find(item => item.id == id);
-    if (foundTshirt) {
-        tshirt.value = foundTshirt;
+    const foundMug = MugData.find(item => item.id == id);
+    if (foundMug) {
+        mug.value = foundMug;
     } else {
-        console.error('T-shirt not found');
+        console.error('Mug not found');
     }
 };
 
@@ -22,24 +29,22 @@ onMounted(() => {
 </script>
 
 <template>
-    <div v-if="tshirt" class="container my-3 p-3">
+    <div v-if="mug" class="container my-3 p-3">
         <a href=""></a>
         <div class="row">
-            <div class="col-md-8"> <img class="mugImg rounded p-2" :src="tshirt.image">
+            <div class="col-md-8"> 
+                <img class="mugImg rounded p-2" :src="mug.image" 
+                :alt="`Taza de cafe personalizada con el diseño ${mug.title}`">
             </div>
             <div class="col p-4">
                 <div class="card p-5">
-                    <h1>{{ tshirt.title }}</h1>
-                    <h3>Precio: <strong>{{ '$ ' + tshirt.price }}</strong></h3>
+                    <h1>{{ mug.title }}</h1>
+                    <h3>Precio: <strong>{{ '$ ' + mug.price }}</strong></h3>
                     <h3>Descripcion:  </h3>
-                        <p> {{ tshirt.desc }} </p>
-                  
-                    <a :href="tshirt.url" class="btn btnSiplhes">Comprar via <i
-                            class="fa-brands fa-whatsapp"></i></a>
+                        <p> {{ mug.desc }} </p>
+                    <a :href="mug.url" class="btn btnSiplhes">
+                Comprar via <i class="fa-brands fa-whatsapp"></i></a>
                 </div>
-
-
-
             </div>
         </div>
     </div>

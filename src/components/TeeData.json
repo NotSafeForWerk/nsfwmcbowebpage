@@ -6,6 +6,7 @@
     "price": 15,
     "desc": "Sonic",
     "url":"https://wa.me/p/7754074964680410/584127698781",
+    "date": "10/07/2024",
     "cat": 1
   },
   {
@@ -13,6 +14,7 @@
     "image": "https://i.imgur.com/PCqOrLS.jpg",
     "title": "Hand, I have faith",
     "url":"https://wa.me/p/8766301133396270/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -20,6 +22,7 @@
     "image": "https://i.imgur.com/5AgvdIe.jpg",
     "title": "Toreto tiene fe",
     "url":"https://wa.me/p/7723229447713854/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -27,6 +30,7 @@
     "image": "https://i.imgur.com/2UZc845.jpg",
     "title": "Mano tengo fe",
     "url":"https://wa.me/p/26795331760065814/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -34,6 +38,7 @@
     "image": "https://i.imgur.com/38B8New.jpg",
     "title": "Art Attack",
     "url":"https://wa.me/p/7983636285020210/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -41,6 +46,7 @@
     "image": "https://i.imgur.com/zaej0vd.jpg",
     "title": "Sobrevivo por pura amsiedad",
     "url":"https://wa.me/p/7835946376494559/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -48,6 +54,7 @@
     "image": "https://i.imgur.com/Et272Yj.jpg",
     "title": "New Jeans Bunny",
     "url":"https://wa.me/p/7966353823431326/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -55,6 +62,7 @@
     "image": "https://i.imgur.com/s7gmwhP.jpg",
     "title": "Cosmo-Con",
     "url":"https://wa.me/p/8167316233319616/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -62,6 +70,7 @@
     "image": "https://i.imgur.com/dWt5M59.jpg",
     "title": "Resident Evil",
     "url":"https://wa.me/p/7708913345882605/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -69,6 +78,7 @@
     "image": "https://i.imgur.com/ZDFl7k1.jpg",
     "title": "Arthas Menethil Lich King",
     "url":"https://wa.me/p/8401720196540798/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -76,6 +86,7 @@
     "image": "https://i.imgur.com/qYp99Ow.png",
     "title": "Illidian Stormrage",
     "url":"https://wa.me/p/7494588753972046/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -83,6 +94,7 @@
     "image": "https://i.imgur.com/ZWMO9RB.jpg",
     "title": "Sylvanas Windrunner",
     "url":"https://wa.me/p/7164012250367485/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -90,6 +102,7 @@
     "image": "https://i.imgur.com/43s3AYN.jpg",
     "title": "Taylor Swift Parody",
     "url":"https://wa.me/p/7164012250367485/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -97,24 +110,29 @@
     "image": "https://i.imgur.com/9Ud9yc8.jpg",
     "title": "VIVA CRISTO REY",
     "url":"https://wa.me/p/7696898237065317/584127698781",
+    "date": "10/07/2024",
     "price": 15
   },
   {
     "id": 10,
     "image": "https://i.imgur.com/oBTtQfZ.jpg",
+    "date": "10/07/2024",
     "title": "BeerSaurus",
+    "date": "10/07/2024",
     "price": 15
   },
   {
     "id": "9",
     "image": "https://i.imgur.com/SryO59R.png",
     "title": "Black Sabbath",
+    "date": "10/07/2024",
     "price": 15
   },
   {
     "id": "8",
     "image": "https://i.imgur.com/BHxttHZ.png",
     "title": "Imagine Death",
+    "date": "10/07/2024",
     "price": 15
   },
   {
@@ -122,6 +140,7 @@
     "title": "PlayStation Japan 1994",
     "image": "https://i.imgur.com/uBVVUwW.jpg",
     "price": "15",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -129,6 +148,7 @@
     "title": "Monjas NSFW",
     "image": "https://i.imgur.com/tILymCF.png",
     "price": "12",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -136,6 +156,7 @@
     "title": "Randy Marsh",
     "image": "https://i.imgur.com/oEPt3jP.jpg",
     "price": "15",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -143,6 +164,7 @@
     "title": "Muffin",
     "image": "https://i.imgur.com/ftME4Rm.jpg",
     "price": "15",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -151,6 +173,7 @@
     "image": "https://i.imgur.com/dDEyBC6.jpg",
     "price": "15",
     "desc": "T-Shirt de JFK Terminator",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -158,6 +181,7 @@
     "title": "Joker",
     "image": "https://i.imgur.com/ZG4Ssb1.jpg",
     "price": "12",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
@@ -165,6 +189,7 @@
     "title": "Straight Outta Anor Londo",
     "image": "https://i.imgur.com/8ebOoFc.jpeg",
     "price": "12",
+    "date": "10/07/2024",
     "url": "https://wa.me/p/6954106794717496/584127698781"
   }
 

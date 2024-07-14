@@ -1,47 +1,52 @@
 [
-    {
-      "id": 1,
-      "image": "https://i.imgur.com/wk234u1.jpeg",
-      "title": "Sheldon Cooper, Fun With Flags",
-      "price": "5.99",
-      "desc": "Sheldon Cooper presents Fun With Flags",
-      "url": "https://wa.me/p/7768960089891291/584127698781",
-      "cat": 1
-    },
-    {
-      "id": 2,
-      "image": "https://i.imgur.com/IJFdDNp.jpeg",
-      "title": "The Dark Side",
-      "price": "5.99",
-      "desc": "The Dark Side mug, to drink with cookies",
-      "url": "https://wa.me/p/25961184360163247/584127698781",
-      "cat": 1
-    },
-    {
-      "id": 3,
-      "image": "https://i.imgur.com/joddmzk.jpeg",
-      "title": "Jake",
-      "price": "5.99",
-      "desc": "Jake the dog, of Adventure time.",
-      "url": "https://wa.me/p/7880587658686371/584127698781",
-      "cat": 1
-    },
-    {
-      "id": 4,
-      "image": "https://i.imgur.com/q0BA7xN.png",
-      "title": "Kitmetsu No Yaiba",
-      "price": 5.99,
-      "desc": "Mejora tu respiración con nuestra taza de Kimetsu No Yaiba",
-      "url": "https://wa.me/c/584127698781",
-      "cat": 1
-    },
-    {
-      "id": 5,
-      "image": "https://i.imgur.com/BElovjk.jpeg",
-      "title": "Jack Skellington",
-      "price": 5.99,
-      "desc": "El extraño mundo de Jack",
-      "url": "https://wa.me/p/7376819302422799/584127698781",
-      "cat": 1
-    }
-  ]
+  {
+    "id": 1,
+    "image": "https://i.imgur.com/wk234u1.jpeg",
+    "title": "Sheldon Cooper, Fun With Flags",
+    "price": "5.99",
+    "desc": "Sheldon Cooper presents Fun With Flags",
+    "url": "https://wa.me/p/7768960089891291/584127698781",
+    "date": "10/07/2024",
+    "cat": 1
+  },
+  {
+    "id": 2,
+    "image": "https://i.imgur.com/IJFdDNp.jpeg",
+    "title": "The Dark Side",
+    "price": "5.99",
+    "desc": "The Dark Side mug, to drink with cookies",
+    "url": "https://wa.me/p/25961184360163247/584127698781",
+    "date": "10/07/2024",
+    "cat": 1
+  },
+  {
+    "id": 3,
+    "image": "https://i.imgur.com/joddmzk.jpeg",
+    "title": "Jake",
+    "price": "5.99",
+    "desc": "Jake the dog, of Adventure time.",
+    "url": "https://wa.me/p/7880587658686371/584127698781",
+    "date": "10/07/2024",
+    "cat": 1
+  },
+  {
+    "id": 4,
+    "image": "https://i.imgur.com/q0BA7xN.png",
+    "title": "Kitmetsu No Yaiba",
+    "price": 5.99,
+    "desc": "Mejora tu respiración con nuestra taza de Kimetsu No Yaiba",
+    "url": "https://wa.me/c/584127698781",
+    "date": "13/07/2024",
+    "cat": 1
+  },
+  {
+    "id": 5,
+    "image": "https://i.imgur.com/BElovjk.jpeg",
+    "title": "Jack Skellington",
+    "price": 5.99,
+    "desc": "El extraño mundo de Jack",
+    "url": "https://wa.me/p/7376819302422799/584127698781",
+    "date": "13/07/2024",
+    "cat": 1
+  }
+]

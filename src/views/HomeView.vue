@@ -6,7 +6,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import MyJumbotron from '../components/TheJumbotron.vue'
+import Home from '../components/Home.vue'
 import OurContact from '../components/OurContact.vue'
 //Configuracion para la visualizacion del Doodle
 import configData from '../components/config.json';
@@ -42,7 +42,7 @@ onMounted(() => {doodleVisible.value = configData[0].doodle;});
         </div>
       </div>
     </section>
-    <MyJumbotron />
+    <Home />
     <OurContact />
   </main>
 </template>

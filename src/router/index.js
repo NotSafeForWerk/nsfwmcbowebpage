@@ -42,8 +42,8 @@ const router = createRouter({
       component: MugView,
     },
     {
-      path: "/teedetails",
-      name: "teedetails",
+      path: "/tshirt",
+      name: "tshirt",
       component: TeeDetails,
     },
     {

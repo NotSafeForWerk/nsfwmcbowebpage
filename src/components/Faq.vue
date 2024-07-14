@@ -1,26 +1,8 @@
-<template>
-    <div class="container mt-5">
-        <h1>Preguntas Frecuentes (FAQs)</h1>
-        <div class="accordion" id="faq">
-            <div class="accordion-item" v-for="(faq, index) in faqs" :key="index">
-                <h2 class="accordion-header" :id="'heading' + index">
-                    <button class="accordion-button" :class="{ 'collapsed': index !== 0 }" type="button"
-                        data-bs-toggle="collapse" :data-bs-target="'#collapse' + index" :aria-expanded="index === 0"
-                        :aria-controls="'collapse' + index">
-                        {{ faq.question }}
-                    </button>
-                </h2>
-                <div :id="'collapse' + index" class="accordion-collapse collapse" :class="{ show: index === 0 }"
-                    :aria-labelledby="'heading' + index" data-bs-parent="#faq">
-                    <div class="accordion-body">
-                        {{ faq.answer }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</template>
-
+#   ▐ ▄       ▄▄▄▄▄    .▄▄ ·  ▄▄▄· ·▄▄▄▄▄▄ .    ·▄▄▄      ▄▄▄      ▄▄▌ ▐ ▄▌      ▄▄▄  ▄ •▄ 
+#  •█▌▐█▪     •██      ▐█ ▀. ▐█ ▀█ ▐▄▄·▀▄.▀·    ▐▄▄·▪     ▀▄ █·    ██· █▌▐█▪     ▀▄ █·█▌▄▌▪
+#  ▐█▐▐▌ ▄█▀▄  ▐█.▪    ▄▀▀▀█▄▄█▀▀█ ██▪ ▐▀▀▪▄    ██▪  ▄█▀▄ ▐▀▀▄     ██▪▐█▐▐▌ ▄█▀▄ ▐▀▀▄ ▐▀▀▄·
+#  ██▐█▌▐█▌.▐▌ ▐█▌·    ▐█▄▪▐█▐█ ▪▐▌██▌.▐█▄▄▌    ██▌.▐█▌.▐▌▐█•█▌    ▐█▌██▐█▌▐█▌.▐▌▐█•█▌▐█.█▌
+#  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 <script>
 export default {
     data() {
@@ -67,6 +49,31 @@ export default {
     }
 };
 </script>
+
+<template>
+    <div class="container mt-5">
+        <h1>Preguntas Frecuentes (FAQs)</h1>
+        <div class="accordion" id="faq">
+            <div class="accordion-item" v-for="(faq, index) in faqs" :key="index">
+                <h2 class="accordion-header" :id="'heading' + index">
+                    <button class="accordion-button" :class="{ 'collapsed': index !== 0 }" type="button"
+                        data-bs-toggle="collapse" :data-bs-target="'#collapse' + index" :aria-expanded="index === 0"
+                        :aria-controls="'collapse' + index">
+                        {{ faq.question }}
+                    </button>
+                </h2>
+                <div :id="'collapse' + index" class="accordion-collapse collapse" :class="{ show: index === 0 }"
+                    :aria-labelledby="'heading' + index" data-bs-parent="#faq">
+                    <div class="accordion-body">
+                        {{ faq.answer }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+
 
 <style scoped>
 .accordion-button {

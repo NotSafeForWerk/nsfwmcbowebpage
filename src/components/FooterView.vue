@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="col-3">
-        <p data-translate class="text-center">
+        <p class="text-center copyright">
           © 2023 | Not Safe For Work - Todos los derechos reservados | Creado por Siplhes
         </p>
       </div>
@@ -46,5 +46,8 @@ footer{
   background-color: #111;
   position: relative;
   height: -5%;
+}
+.copyright{
+  color: #fefffa;
 }
 </style>

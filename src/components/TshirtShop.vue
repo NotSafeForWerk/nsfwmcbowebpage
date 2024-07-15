@@ -15,15 +15,12 @@ const displayedTshirts = computed(() => {
 
 <template>
   <main>
-    <div class="mx-auto text-center my-4">
-          <h1>T-SHIRTS</h1>
-        </div>
+    <div class="mx-auto text-center my-4"><h1>FRANELAS</h1></div>
     <div class="container shopContainer rounded">
       <div class="row d-flex justify-content-center">
-
         <div v-for="(shirt, index) in displayedTshirts" :key="index" class="card teecard m-2 text-center">
           <img class="card-img-top"
-          :src="`src/assets/images${shirt.image}${shirt.id}.webp`"
+           :src="`images${shirt.image}${shirt.id}.webp`"
           :alt="`Taza de cafe personalizada con el diseño ${shirt.title}`">
           <div class="card-body">
             <h5 class="card-title">{{ shirt.title }}</h5>

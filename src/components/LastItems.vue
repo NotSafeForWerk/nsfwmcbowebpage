@@ -47,7 +47,7 @@ const displayedItems = computed(() => {
           <a class="stretched-link" :href="`/tshirt?id=${shirt.id}`"></a>
         </div>
         <div class="mx-auto text-center">
-          <RouterLink class="btnSiplhes my-3" to="/Tshirts">Ver mas diseños</RouterLink>
+          <RouterLink class="btnSiplhes my-3" to="/shop">Ver mas productos</RouterLink>
         </div>
       </div>
     </div>

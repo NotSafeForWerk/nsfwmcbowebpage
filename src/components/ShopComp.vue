@@ -10,7 +10,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4 ">
         <div class="col">
           <div class="card h-100">
-            <img src="https://i.imgur.com/vW7qH1t.png" class="card-img-top" alt="...">
+            <img src="../assets/images/tshirts.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">Tshirts</h1>
             </div>
@@ -19,7 +19,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="https://i.imgur.com/vfL3CfS.png" class="card-img-top" alt="...">
+            <img src="../assets/images/mugs.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title">Tazas</h1>
             </div>

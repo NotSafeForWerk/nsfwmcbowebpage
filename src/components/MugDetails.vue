@@ -23,17 +23,21 @@ const fetchTshirtData = () => {
     }
 };
 
+
+
 onMounted(() => {
     fetchTshirtData();
 });
 </script>
+
 
 <template>
     <div v-if="mug" class="container my-3 p-3">
         <a href=""></a>
         <div class="row">
             <div class="col-md-8"> 
-                <img class="mugImg rounded p-2" :src="mug.image" 
+                <img class="mugImg rounded p-2" 
+                :src="`images${mug.image}${mug.id}.webp`"
                 :alt="`Taza de cafe personalizada con el diseño ${mug.title}`">
             </div>
             <div class="col p-4">

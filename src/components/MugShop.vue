@@ -22,7 +22,8 @@ const displayedMugs = computed(() => {
       <div class="row d-flex justify-content-center">
 
         <div v-for="(mug, index) in displayedMugs" :key="index" class="card teecard m-2 text-center">
-          <img class="card-img-top" :src="mug.image"  
+          <img class="card-img-top"
+           :src="`images${mug.image}${mug.id}.webp`"
            :alt="`Taza de cafe personalizada con el diseño ${mug.title}`">
         
           <div class="card-body">

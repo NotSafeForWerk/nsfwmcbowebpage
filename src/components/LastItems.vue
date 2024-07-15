@@ -36,7 +36,8 @@ const displayedItems = computed(() => {
         <h1 id="slogan" class="text-center" N>Ultimos productos</h1>
         <div v-for="(shirt, index) in displayedItems" 
         :key="index" class="card m-1 col-l-5" style="width: 20rem;">
-          <img class="card-img-top" :src="shirt.image" 
+          <img class="card-img-top" 
+                    :src="`images${shirt.image}${shirt.id}.webp`"
           :alt="`Taza de cafe personalizada con el diseño ${shirt.title}`">
           <div class="card-body">
             <h5 class="card-title">{{ shirt.title }}</h5>

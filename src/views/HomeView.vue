@@ -5,26 +5,17 @@
 #  ▀▀ █▪ ▀█▄▀▪ ▀▀▀      ▀▀▀▀  ▀  ▀ ▀▀▀  ▀▀▀     ▀▀▀  ▀█▄▀▪.▀  ▀     ▀▀▀▀ ▀▪ ▀█▄▀▪.▀  ▀·▀  ▀
 
 <script setup>
-import { ref, onMounted } from 'vue';
 import Home from '../components/Home.vue'
-import OurContact from '../components/OurContact.vue'
-//Configuracion para la visualizacion del Doodle
-import configData from '../components/config.json';
-const doodleVisible = ref(false);
-onMounted(() => {doodleVisible.value = configData[0].doodle;});
 </script>
 
 <template>
   <main>
     <section id="welcomeSection"
       class="container-fluid text-center p-4 d-flex align-content-center justify-content-center">
-      <div v-if="doodleVisible">
-        <css-doodle class="d-none d-sm-none d-md-block" use="var(--rule)"></css-doodle>
-      </div>
       <div id="NSFWData" class="row d-flex align-self-center ">
         <div class="col-sm-3 col-md-6 col-lg-6">
           <img id="NSFWLogo" alt="NSFW Logo" class="img-fluid"
-            src="https://i.imgur.com/vfSHhVr.png">
+            src="../assets/images/nsfwlogo.webp">
         </div>
         <div class="col-sm-3 col-md-6 col-lg-5 text-light">
           <h1 id="NSFWTitle" class="title">
@@ -43,7 +34,7 @@ onMounted(() => {doodleVisible.value = configData[0].doodle;});
       </div>
     </section>
     <Home />
-    <OurContact />
+
   </main>
 </template>
 
@@ -64,8 +55,7 @@ onMounted(() => {doodleVisible.value = configData[0].doodle;});
 #welcomeSection {
   height: 50vh;
   margin: 0;
-
-  background:  linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url(https://i.imgur.com/ON4xln5.jpeg);
+  background:  linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)), url("../assets/images/welcomebg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -13,6 +13,7 @@ import ShopView from "../views/ShopView.vue";
 import MugView from "../views/MugView.vue";
 import Order from "../components/Order.vue";
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

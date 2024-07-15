@@ -32,7 +32,8 @@ onMounted(() => {
     <div v-if="tshirt" class="container my-3 p-3">
         <a href=""></a>
         <div class="row">
-            <div class="col-md-8"> <img class="tshirtimg rounded p-2" :src="tshirt.image"
+            <div class="col-md-8"> <img class="tshirtimg rounded p-2" 
+                :src="`images${tshirt.image}${tshirt.id}.webp`"
                 :alt="`Taza de cafe personalizada con el diseño ${tshirt.title}`">
             </div>
             <div class="col p-4">

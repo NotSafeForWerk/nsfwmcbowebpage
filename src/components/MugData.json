@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.imgur.com/wk234u1.jpeg",
+    "image": "/mugs/",
     "title": "Sheldon Cooper, Fun With Flags",
     "price": "5.99",
     "desc": "Sheldon Cooper presents Fun With Flags",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.imgur.com/IJFdDNp.jpeg",
+    "image": "/mugs/",
     "title": "The Dark Side",
     "price": "5.99",
     "desc": "The Dark Side mug, to drink with cookies",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.imgur.com/joddmzk.jpeg",
+    "image": "/mugs/",
     "title": "Jake",
     "price": "5.99",
     "desc": "Jake the dog, of Adventure time.",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.imgur.com/q0BA7xN.png",
+    "image": "/mugs/",
     "title": "Kitmetsu No Yaiba",
     "price": 5.99,
     "desc": "Mejora tu respiración con nuestra taza de Kimetsu No Yaiba",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.imgur.com/BElovjk.jpeg",
+    "image": "/mugs/",
     "title": "Jack Skellington",
     "price": 5.99,
     "desc": "El extraño mundo de Jack",

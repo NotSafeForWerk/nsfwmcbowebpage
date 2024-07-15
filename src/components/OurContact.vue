@@ -26,10 +26,10 @@
             </a>
           </div>
           <div class="contact-item">
-            <a :href="twitterLink" target="_blank" class="btnSiplhes" aria-label="Twitter">
-              <i class="fab fa-twitter"></i> Twitter
+            <a href="https://x.com/nsfwmcbo" target="_blank" class="btnSiplhes" aria-label="X">
+              <i class="fab fa-twitter"></i> X
             </a>
-          </div>
+          </div>S
           <div class="contact-item">
             <a href="mailto:nsfwmcbo@gmail.com" data-translate class="btnSiplhes" aria-label="Email">
               <i class="fas fa-envelope"></i> E-mail
@@ -40,7 +40,7 @@
           <!-- Columna derecha para el mapa -->
           <div class="contact-item">
             <div class="map embed-responsive embed-responsive-16by9">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.445517575341!2d-71.6352401!3d10.7065846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899f2035a14e73%3A0x7fa074a3b189e37a!2sNSFW%20Clothes%20Maracaibo!5e0!3m2!1ses-419!2sve!4v1720122767807!5m2!1ses-419!2sve" 
+              <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15681.445517575341!2d-71.6352401!3d10.7065846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899f2035a14e73%3A0x7fa074a3b189e37a!2sNSFW%20Clothes%20Maracaibo!5e0!3m2!1ses-419!2sve!4v1720122767807!5m2!1ses-419!2sve" 
               width="380
               " height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

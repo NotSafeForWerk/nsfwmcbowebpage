@@ -10,7 +10,6 @@ import AboutUs from '../components/AboutMe.vue';
 
 <template>
 <AboutUs />
-
 </template>
 
 <style>

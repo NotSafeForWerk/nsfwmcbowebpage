@@ -16,7 +16,7 @@
             <i class="fa-brands fa-instagram icon"></i></a>
           <a href="https://facebook.com/nsfwmcbo" target="_blank" aria-label="Facebook">
             <i class="fa-brands fa-facebook icon"></i></a>
-          <a href="https://twitter.com/nsfwmcbo" target="_blank" aria-label="Facebook">
+          <a href="https://X.com/nsfwmcbo" target="_blank" aria-label="Facebook">
             <i class="fa-brands fa-x-twitter icon"></i></a>
         </div>
       </div>
@@ -30,7 +30,6 @@
           <RouterLink to="/terms" class="terms">Terminos y condiciones</RouterLink>
         </p>
         <p>
-          <div class="powr-hit-counter" id="50691489_1720992710"></div>
         </p>
       </div>
     </div>

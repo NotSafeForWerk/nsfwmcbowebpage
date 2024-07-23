@@ -5,113 +5,126 @@
     "title": "Necesito totona",
     "price": 15,
     "desc": "Sonic",
-    "url":"https://wa.me/p/7754074964680410/584127698781",
+    "url": "https://wa.me/p/7754074964680410/584127698781",
     "date": "10/07/2024",
-    "cat": 1
+    "cat": "tshirt"
   },
   {
     "id": 23,
     "image": "/tshirts/",
     "title": "Hand, I have faith",
-    "url":"https://wa.me/p/8766301133396270/584127698781",
+    "url": "https://wa.me/p/8766301133396270/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 22,
     "image": "/tshirts/",
     "title": "Toreto tiene fe",
-    "url":"https://wa.me/p/7723229447713854/584127698781",
+    "url": "https://wa.me/p/7723229447713854/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 21,
     "image": "/tshirts/",
     "title": "Mano tengo fe",
-    "url":"https://wa.me/p/26795331760065814/584127698781",
+    "url": "https://wa.me/p/26795331760065814/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 20,
     "image": "/tshirts/",
     "title": "Art Attack",
-    "url":"https://wa.me/p/7983636285020210/584127698781",
+    "url": "https://wa.me/p/7983636285020210/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 19,
     "image": "/tshirts/",
     "title": "Sobrevivo por pura amsiedad",
-    "url":"https://wa.me/p/7835946376494559/584127698781",
+    "url": "https://wa.me/p/7835946376494559/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 18,
     "image": "/tshirts/",
     "title": "New Jeans Bunny",
-    "url":"https://wa.me/p/7966353823431326/584127698781",
+    "url": "https://wa.me/p/7966353823431326/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 17,
     "image": "/tshirts/",
     "title": "Cosmo-Con",
-    "url":"https://wa.me/p/8167316233319616/584127698781",
+    "url": "https://wa.me/p/8167316233319616/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 16,
     "image": "/tshirts/",
     "title": "Resident Evil",
-    "url":"https://wa.me/p/7708913345882605/584127698781",
+    "url": "https://wa.me/p/7708913345882605/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 15,
     "image": "/tshirts/",
     "title": "Arthas Menethil Lich King",
-    "url":"https://wa.me/p/8401720196540798/584127698781",
+    "url": "https://wa.me/p/8401720196540798/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 14,
     "image": "/tshirts/",
     "title": "Illidian Stormrage",
-    "url":"https://wa.me/p/7494588753972046/584127698781",
+    "url": "https://wa.me/p/7494588753972046/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 13,
     "image": "/tshirts/",
     "title": "Sylvanas Windrunner",
-    "url":"https://wa.me/p/7164012250367485/584127698781",
+    "url": "https://wa.me/p/7164012250367485/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 12,
     "image": "/tshirts/",
     "title": "Taylor Swift Parody",
-    "url":"https://wa.me/p/7164012250367485/584127698781",
+    "url": "https://wa.me/p/7164012250367485/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 11,
     "image": "/tshirts/",
     "title": "VIVA CRISTO REY",
-    "url":"https://wa.me/p/7696898237065317/584127698781",
+    "url": "https://wa.me/p/7696898237065317/584127698781",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": 10,
@@ -119,21 +132,24 @@
     "date": "10/07/2024",
     "title": "BeerSaurus",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": "9",
     "image": "/tshirts/",
     "title": "Black Sabbath",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": "8",
     "image": "/tshirts/",
     "title": "Imagine Death",
     "date": "10/07/2024",
-    "price": 15
+    "price": 15,
+    "cat": "tshirt"
   },
   {
     "id": "7",
@@ -141,7 +157,8 @@
     "image": "/tshirts/",
     "price": "15",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "6",
@@ -149,7 +166,8 @@
     "image": "/tshirts/",
     "price": "12",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "5",
@@ -157,7 +175,8 @@
     "image": "/tshirts/",
     "price": "15",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "4",
@@ -165,7 +184,8 @@
     "image": "/tshirts/",
     "price": "15",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "3",
@@ -174,7 +194,8 @@
     "price": "15",
     "desc": "T-Shirt de JFK Terminator",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "2",
@@ -182,7 +203,8 @@
     "image": "/tshirts/",
     "price": "12",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   },
   {
     "id": "1",
@@ -190,7 +212,7 @@
     "image": "/tshirts/",
     "price": "12",
     "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781"
+    "url": "https://wa.me/p/6954106794717496/584127698781",
+    "cat": "tshirt"
   }
-
 ]

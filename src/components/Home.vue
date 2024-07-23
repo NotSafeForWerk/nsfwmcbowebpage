@@ -13,6 +13,8 @@ import TeeShort from './LastItems.vue';
 <template>
 
   <div>
+    <TeeShort/>
+
     <section id="services" class="container-fluid text-center p-4">
       <div class="container text-center d-inline-flex flex-column align-items-center justify-content-center m-auto reveal">
         <h1 >Te ofrecemos servicios</h1>
@@ -48,7 +50,6 @@ import TeeShort from './LastItems.vue';
         </div>
       </div>
     </section>
-    <TeeShort/>
 
     <section id="art-weapons" class="container-fluid text-center p-4">
       <div class="d-flex align-items-center justify-content-center">

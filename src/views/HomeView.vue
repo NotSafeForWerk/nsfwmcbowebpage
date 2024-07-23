@@ -34,7 +34,6 @@ import Home from '../components/Home.vue'
       </div>
     </section>
     <Home />
-
   </main>
 </template>
 

@@ -33,7 +33,7 @@ const displayedItems = computed(() => {
     
     <div class="container py-2">
       <div class="row d-flex justify-content-center">
-        <h1 id="slogan" class="text-center" N>Ultimos productos</h1>
+        <h1 id="slogan" class="text-center m-3">Ultimos productos</h1>
         <div v-for="(shirt, index) in displayedItems" 
         :key="index" class="card m-1 col-l-5" style="width: 20rem;">
           <img class="card-img-top" 
@@ -44,7 +44,7 @@ const displayedItems = computed(() => {
             <p class="card-text">Precio: <strong>{{ '$' + shirt.price }}</strong></p>
           </div>
           <RouterLink class="btnSiplhes mb-3" :to="`/tshirts?id=${shirt.id}`">Mas detalles</RouterLink>
-          <a class="stretched-link" :href="`/tshirt?id=${shirt.id}`"></a>
+          <a class="stretched-link" :href="`/${shirt.cat}?id=${shirt.id}`"></a>
         </div>
         <div class="mx-auto text-center">
           <RouterLink class="btnSiplhes my-3" to="/shop">Ver mas productos</RouterLink>

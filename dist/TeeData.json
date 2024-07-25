@@ -1,218 +1,170 @@
 [
   {
     "id": 24,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/bv2RNyX.jpg",
     "title": "Necesito totona",
     "price": 15,
     "desc": "Sonic",
-    "url": "https://wa.me/p/7754074964680410/584127698781",
-    "date": "10/07/2024",
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7754074964680410/584127698781",
+    "cat": 1
   },
   {
     "id": 23,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/PCqOrLS.jpg",
     "title": "Hand, I have faith",
-    "url": "https://wa.me/p/8766301133396270/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/8766301133396270/584127698781",
+    "price": 15
   },
   {
     "id": 22,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/5AgvdIe.jpg",
     "title": "Toreto tiene fe",
-    "url": "https://wa.me/p/7723229447713854/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7723229447713854/584127698781",
+    "price": 15
   },
   {
     "id": 21,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/2UZc845.jpg",
     "title": "Mano tengo fe",
-    "url": "https://wa.me/p/26795331760065814/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/26795331760065814/584127698781",
+    "price": 15
   },
   {
     "id": 20,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/38B8New.jpg",
     "title": "Art Attack",
-    "url": "https://wa.me/p/7983636285020210/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7983636285020210/584127698781",
+    "price": 15
   },
   {
     "id": 19,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/zaej0vd.jpg",
     "title": "Sobrevivo por pura amsiedad",
-    "url": "https://wa.me/p/7835946376494559/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7835946376494559/584127698781",
+    "price": 15
   },
   {
     "id": 18,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/Et272Yj.jpg",
     "title": "New Jeans Bunny",
-    "url": "https://wa.me/p/7966353823431326/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7966353823431326/584127698781",
+    "price": 15
   },
   {
     "id": 17,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/s7gmwhP.jpg",
     "title": "Cosmo-Con",
-    "url": "https://wa.me/p/8167316233319616/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/8167316233319616/584127698781",
+    "price": 15
   },
   {
     "id": 16,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/dWt5M59.jpg",
     "title": "Resident Evil",
-    "url": "https://wa.me/p/7708913345882605/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7708913345882605/584127698781",
+    "price": 15
   },
   {
     "id": 15,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/ZDFl7k1.jpg",
     "title": "Arthas Menethil Lich King",
-    "url": "https://wa.me/p/8401720196540798/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/8401720196540798/584127698781",
+    "price": 15
   },
   {
     "id": 14,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/qYp99Ow.png",
     "title": "Illidian Stormrage",
-    "url": "https://wa.me/p/7494588753972046/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7494588753972046/584127698781",
+    "price": 15
   },
   {
     "id": 13,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/ZWMO9RB.jpg",
     "title": "Sylvanas Windrunner",
-    "url": "https://wa.me/p/7164012250367485/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7164012250367485/584127698781",
+    "price": 15
   },
   {
     "id": 12,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/43s3AYN.jpg",
     "title": "Taylor Swift Parody",
-    "url": "https://wa.me/p/7164012250367485/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7164012250367485/584127698781",
+    "price": 15
   },
   {
     "id": 11,
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/9Ud9yc8.jpg",
     "title": "VIVA CRISTO REY",
-    "url": "https://wa.me/p/7696898237065317/584127698781",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "url":"https://wa.me/p/7696898237065317/584127698781",
+    "price": 15
   },
   {
     "id": 10,
-    "image": "/tshirts/",
-    "date": "10/07/2024",
+    "image": "https://i.imgur.com/oBTtQfZ.jpg",
     "title": "BeerSaurus",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "price": 15
   },
   {
     "id": "9",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/SryO59R.png",
     "title": "Black Sabbath",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "price": 15
   },
   {
     "id": "8",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/BHxttHZ.png",
     "title": "Imagine Death",
-    "date": "10/07/2024",
-    "price": 15,
-    "cat": "tshirt"
+    "price": 15
   },
   {
     "id": "7",
     "title": "PlayStation Japan 1994",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/uBVVUwW.jpg",
     "price": "15",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "6",
     "title": "Monjas NSFW",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/tILymCF.png",
     "price": "12",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "5",
     "title": "Randy Marsh",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/oEPt3jP.jpg",
     "price": "15",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "4",
     "title": "Muffin",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/ftME4Rm.jpg",
     "price": "15",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "3",
     "title": "JFK 1000",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/dDEyBC6.jpg",
     "price": "15",
-    "desc": "T-Shirt de JFK Terminator",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "2",
     "title": "Joker",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/ZG4Ssb1.jpg",
     "price": "12",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   },
   {
     "id": "1",
     "title": "Straight Outta Anor Londo",
-    "image": "/tshirts/",
+    "image": "https://i.imgur.com/8ebOoFc.jpeg",
     "price": "12",
-    "date": "10/07/2024",
-    "url": "https://wa.me/p/6954106794717496/584127698781",
-    "cat": "tshirt"
+    "url": "https://wa.me/p/6954106794717496/584127698781"
   }
+
 ]

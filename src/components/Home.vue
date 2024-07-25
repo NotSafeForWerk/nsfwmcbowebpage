@@ -15,6 +15,9 @@ import TeeShort from './LastItems.vue';
   <div>
     <TeeShort/>
 
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-05fd9a31-d3af-4934-90b2-8070a97af90a" data-elfsight-app-lazy></div>
+    
     <section id="services" class="container-fluid text-center p-4">
       <div class="container text-center d-inline-flex flex-column align-items-center justify-content-center m-auto reveal">
         <h1 >Te ofrecemos servicios</h1>
